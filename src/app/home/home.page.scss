@@ -1,0 +1,61 @@
+ion-toolbar {
+  --background: black;
+
+ion-icon {
+  font-size: x-large;
+  padding-top: 10px;
+}
+
+ion-item {
+  --background: black;
+}
+ion-text {
+    color:aliceblue;
+    font-size: small;
+    font-family: Century Gothic;
+    color: beige;
+}
+
+
+ion-button{
+    text-transform: initial;
+    font-size: 17px;
+    color: beige;
+  }
+}
+
+.custom-icon{
+  font-size:30px;
+  color: white;
+}
+
+
+ion-content {
+  font-style: normal;
+  font-size: medium;
+  font-family: Century Gothic;
+  color: beige;
+  background-color: black;
+}  
+
+ion-title {
+  font-size: xx-large;
+  font-family: Century Gothic;
+  color:beige;
+  text-align: left;
+}
+
+
+
+img 
+
+.pic-logo {
+  width: 50%;
+  margin: 20% 0 20% 0;
+}
+
+.title p {
+  margin-top: 0 !important;
+  text-align: left;
+}
+

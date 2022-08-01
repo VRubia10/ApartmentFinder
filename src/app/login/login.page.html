@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title></ion-title>
+    <a href="http://localhost:8100/home"><ion-icon name="arrow-back-circle-sharp" slot="start" color="light"size="large" style="float:left; margin-left:10px;"></ion-icon></a>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding ion-text-center" color="black">
+  <img src="assets/apart.png" alt="apart-logo">
+
+  <div class="title">
+  <h1>LANDLORD</h1>
+  <h1>LOGIN</h1>
+  </div>
+  <br>
+  <br>
+  
+  <ion-item>
+    <ion-label position="stacked">Email</ion-label>
+    <ion-input [{ngModel}]='email'></ion-input>
+  </ion-item>
+  <br>
+
+  <ion-item>
+    <ion-label position="stacked">Password</ion-label>
+    <ion-input [{ngModel}]='password'></ion-input>
+  </ion-item>
+
+    <div class="action-button ion-padding">
+      <ion-button (click)="login()"size="large" class="login-button" color="light" fill="outline">LOGIN</ion-button>
+    </div>
+
+</ion-content>
+

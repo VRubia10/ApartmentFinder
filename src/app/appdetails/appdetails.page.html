@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <a href="http://localhost:8100/home"><ion-icon name="arrow-back-circle-sharp" class="custom-icon" slot="start" style="float:left; margin-left:10px;"></ion-icon></a>
+    <ion-title>Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding ion-text-center" color="dark">
+  <ion-item *ngFor="let detail of details">
+    <img src="{{ detail.img }}">
+      <div class="title">
+        <h1>{{ detail.title }}</h1>
+          <p> {{ detail.price }}</p>
+          <p> {{ detail.address }}</p>
+          <p> {{ detail.type }}<br></p>
+      </div>
+  </ion-item>
+ 
+ </ion-content>

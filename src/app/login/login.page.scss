@@ -1,0 +1,36 @@
+ion-content {
+    --background: #000000;
+    font-size:larger;
+    font-family: Century Gothic;
+    color:beige;
+    text-align: center;
+  
+
+  .custom-icon{
+    font-size:30px;
+    color: white;
+  }
+ion-input {
+      --background: #ffffff33;
+      --padding-start: 20px;
+      height: 40px;
+      border-radius: 22px;
+      margin-bottom: 22px;
+      text-align: center;
+      text-transform: initial;
+      --placeholder-color: #ffffff;
+      --color: #fff;
+    }
+  
+  }
+
+ion-toolbar {
+  --background: #000000;
+}
+
+img {
+  width: 125px;
+  height: 125px;
+  
+}
+
